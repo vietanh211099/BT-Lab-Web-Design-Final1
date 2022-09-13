@@ -38,6 +38,7 @@ function sendForm(){
         document.getElementById("phone-error").innerHTML= ""
     }
 }
+
 function resetForm()
     { var y = document.getElementsByTagName("form"); 
     document.getElementsByTagName("form")[0].reset(); 
